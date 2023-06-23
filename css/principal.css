@@ -16,14 +16,14 @@
 }
 
 header {
-    height: 92px;
+    height: 72px;
     background-color: var(--second-color);
 }
 
 #conteiner_header {
-    height: 92px;
+    height: 72px;
     background-color: var(--tertiary-color);
-    width: 1170px;
+    max-width: 1170px;
     margin: 0 auto;
     border-radius: 7px;
     display: flex;
@@ -31,7 +31,7 @@ header {
 }
 
 #espaco_icon {
-    height: 92px;
+    height: 72px;
     width: 215px;
     border-radius: 7px;
     display: flex;
@@ -54,7 +54,6 @@ header {
 #barra_pesquisa{
     display: flex;
     align-items: center;
-    width: 395px;
     background-color: var(--tertiary-color);
 }
 
@@ -68,9 +67,11 @@ header {
 
 #ultima_lista ul {
     display: flex;
+    align-items: center;
     font-size: 16px;
     list-style-type: none;
-    
+    background-color: var(--tertiary-color);
+
 }
 
 #ultima_lista li {
@@ -79,7 +80,18 @@ header {
     background-color: var(--tertiary-color);
 }
 
+#ultima_lista ul li:last-child{
+    background-color: var(--second-color);
+    padding: 6px;
+    border-radius: 5px;
+    margin-right: 32px;
+}
+
 #ultima_lista i {
     background-color: var(--tertiary-color);
     padding-right: 5px;
+}
+
+#carrinho.fa-solid {
+    background-color: var(--second-color);
 }
