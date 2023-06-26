@@ -121,7 +121,7 @@ header {
 
 #imagem_background {
     height: 329px;
-    background-image: url(../img/Comum/wallpaper.jpg);
+    background-image: url(../img/Comum/wallpaper.webp);
     background-attachment: fixed;
     background-size: 100%;
     background-repeat: no-repeat;
