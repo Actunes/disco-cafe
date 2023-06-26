@@ -16,14 +16,14 @@
 }
 
 header {
-    height: 72px;
+    height: 52px;
     background-color: var(--second-color);
 }
 
 #conteiner_header {
-    height: 72px;
+    height: 52px;
     background-color: var(--tertiary-color);
-    max-width: 1170px;
+    max-width: 1000px;
     margin: 0 auto;
     border-radius: 7px;
     display: flex;
@@ -31,8 +31,8 @@ header {
 }
 
 #espaco_icon {
-    height: 72px;
-    width: 215px;
+    height: 52px;
+    width: 150px;
     border-radius: 7px;
     display: flex;
     justify-content: space-evenly;
@@ -46,7 +46,7 @@ header {
 
 #espaco_icon h3{
     font-family: 'Amatic SC', cursive;
-    font-size: 42px;
+    font-size: 32px;
     background-color: var(--white-color);
     color: #2E2828;
 }
@@ -54,7 +54,26 @@ header {
 #barra_pesquisa{
     display: flex;
     align-items: center;
-    background-color: var(--tertiary-color);
+    background-color: white;
+    align-items: center;
+    padding: 2px;
+    border-radius: 4px;
+    margin: 10px;
+}
+
+#barra_pesquisa i {
+    background-color: #FEF4F4;
+    padding-right: 5px;
+}
+
+.search-text {
+    background: none;
+    border: 0;
+    outline: 0;
+    color: black;
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 150px;
 }
 
 #ultima_lista {
@@ -68,7 +87,7 @@ header {
 #ultima_lista ul {
     display: flex;
     align-items: center;
-    font-size: 16px;
+    font-size: 14px;
     list-style-type: none;
     background-color: var(--tertiary-color);
 
@@ -80,7 +99,7 @@ header {
     background-color: var(--tertiary-color);
 }
 
-#ultima_lista ul li:last-child{
+#ultima_lista ul li:nth-last-child(1){
     background-color: var(--second-color);
     padding: 6px;
     border-radius: 5px;
@@ -94,4 +113,44 @@ header {
 
 #carrinho.fa-solid {
     background-color: var(--second-color);
+}
+
+#menu_ham {
+    display: none;
+}
+
+#imagem_background {
+    height: 329px;
+    background-image: url(../img/Comum/wallpaper.jpg);
+    background-attachment: fixed;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: white;
+}
+
+@media (max-width: 768px){
+    #espaco_icon h3 {
+        display: none;
+    }
+
+    #espaco_icon {
+        width: 52px;
+    }
+
+    #ultima_lista ul{
+        display: none;
+    }
+
+    #imagem_background {
+        height: 190px;
+    }
+
+    #menu_ham {
+        display: block;
+        margin-right: 15px;
+    }
+
+    .search-text {
+        width: 240px;
+    }
 }
