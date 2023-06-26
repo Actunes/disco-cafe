@@ -11,7 +11,6 @@
 * {
     padding: 0;
     margin: 0;
-    background-color: var(--primary-color);
     color: var(--white-color);
 }
 
@@ -25,7 +24,7 @@ header {
     background-color: var(--tertiary-color);
     max-width: 1000px;
     margin: 0 auto;
-    border-radius: 7px;
+    border-radius: 5px;
     display: flex;
     justify-content: space-between;
 }
@@ -33,7 +32,7 @@ header {
 #espaco_icon {
     height: 52px;
     width: 150px;
-    border-radius: 7px;
+    border-radius: 5px;
     display: flex;
     justify-content: space-evenly;
     background-color: var(--white-color);
@@ -120,12 +119,49 @@ header {
 }
 
 #imagem_background {
+    position: relative;
     height: 329px;
     background-image: url(../img/Comum/wallpaper.webp);
-    background-attachment: fixed;
-    background-size: 100%;
+    background-size: cover;
     background-repeat: no-repeat;
     background-color: white;
+    background-position: center;
+}
+
+#imagem_background h4 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: var(--white-color);
+    font-size: 42px;
+    font-weight: bold;
+    font-family: 'Amatic SC', cursive;
+    text-shadow: 2px 2px 1px rgba(0, 0, 0, 1);
+    text-align: center;
+    background-color: #F7AA43;
+    border: 2px solid black;
+    padding: 2px;
+}
+
+#imagem_background p {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: var(--white-color);
+    font-size: 26px;
+    font-weight: bold;
+    font-family: 'Amatic SC', cursive;
+    text-shadow: 2px 2px 1px rgba(0, 0, 0, 1);
+    text-align: center;
+    border: 2px solid black;
+    background-color: #F7AA43;
+    padding: 2px;
+}
+
+body{
+    background-color: var(--primary-color);
 }
 
 @media (max-width: 768px){
@@ -153,4 +189,13 @@ header {
     .search-text {
         width: 240px;
     }
+
+    #imagem_background h4 {
+        top: 30%;
+        color: var(--white-color);
+        font-size: 24px;
+        font-weight: bold;
+    }
+
+    
 }
