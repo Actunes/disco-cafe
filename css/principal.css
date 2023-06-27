@@ -236,7 +236,7 @@ main{
 
 .card{
     width: 200px;
-    height: 315px;
+    height: 325px;
     border: 1px solid black;
     font-size: 14px;
     margin-bottom: 10px;
@@ -246,14 +246,20 @@ main{
 .card h6{
     font-size: 15px;
     margin-top: 2px;
+    color: #585858;
+    font-family: 'Source Sans Pro';
+    font-weight: bold;
 }
 
 .card h5 {
     margin-top: 5px;
+    font-family: 'Source Sans Pro';
+    color: #767474;
 }
 
 .card h6, .card h5 {
     padding-left: 5px;
+    float: left;
 }
 
 .img_produto{
@@ -264,6 +270,15 @@ main{
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+}
+
+.botao_add{
+    background-color: green;
+    padding: 4px;
+    border-radius: 5px;
+    float: right;
+    margin-right: 10px;
+    text-decoration: none;
 }
 
 .img1{
