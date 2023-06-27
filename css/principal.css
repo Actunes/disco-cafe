@@ -52,6 +52,10 @@ header {
     color: #2E2828;
 }
 
+#espaco_icon a{
+    text-decoration: none;
+}
+
 #barra_pesquisa{
     display: flex;
     align-items: center;
@@ -60,6 +64,8 @@ header {
     padding: 2px;
     border-radius: 4px;
     margin: 10px;
+    width: 200px;
+    min-width: 50px;
 }
 
 #barra_pesquisa i {
@@ -74,14 +80,13 @@ header {
     color: black;
     padding-left: 5px;
     padding-right: 5px;
-    width: 150px;
+    width: 200px;
 }
 
 #ultima_lista {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    background-color: var(--tertiary-color);
     border-radius: 7px;
 }
 
@@ -90,30 +95,32 @@ header {
     align-items: center;
     font-size: 14px;
     list-style-type: none;
-    background-color: var(--tertiary-color);
-
 }
 
 #ultima_lista li {
-    padding-right: 32px;
     font-family: 'Acme', sans-serif;
-    background-color: var(--tertiary-color);
+    padding: 6px;
+    border-radius: 5px;
+    margin-right: 10px;  
+}
+
+#ultima_lista a{
+    text-decoration: none;
+}
+
+#ultima_lista li:hover {
+    background-color: var(--second-color);
 }
 
 #ultima_lista ul li:nth-last-child(1){
-    background-color: var(--second-color);
     padding: 6px;
     border-radius: 5px;
     margin-right: 32px;
+    background-color: var(--second-color);
 }
 
 #ultima_lista i {
-    background-color: var(--tertiary-color);
     padding-right: 5px;
-}
-
-#carrinho.fa-solid {
-    background-color: var(--second-color);
 }
 
 #menu_ham {
@@ -180,7 +187,8 @@ main{
     display: flex;
     align-items: center;
     justify-content: end;
-    border-radius: 7px;
+    border-radius: 0px 0px 0px 5px;
+    background-color: #330303;
 }
 
 #lista_secao ul{
@@ -194,23 +202,36 @@ main{
     padding-right: 32px;
     font-family: 'Acme', sans-serif;
     background-color: var(--tertiary-color);
+    padding: 6px;
+    width: 70px;
+    text-align: center;
 }
 
-#lista_secao li:last-child{
-    padding-right: 10px;
-    border-radius: 0px 5px 5px 0px
+#lista_secao a{
+    text-decoration: none;
 }
 
 #lista_secao li:first-child{
     padding-left: 5px;
-    border-radius: 5px 0px 0px 5px;
+    background-color: var(--second-color);
 }
 
-#conteiner_produtos{
-    display: flex;
-    justify-content: space-evenly;
-    margin-top: 5px;
-    flex-wrap: wrap;
+#lista_secao li:last-child{
+    padding-right: 10px;
+    border-radius: 0px 0px 5px 0px
+}
+
+#lista_secao li:hover{
+    background-color: var(--second-color);
+}
+
+#conteiner_produtos {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 5px;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
 }
 
 .card{
@@ -219,6 +240,7 @@ main{
     border: 1px solid black;
     font-size: 14px;
     margin-bottom: 10px;
+    margin: 0 auto;
 }
 
 .card h6{
@@ -265,6 +287,21 @@ main{
     background-image: url(../img/Capsulas/cacau.webp);
 }
 
+.img6{
+    background-image: url(../img/Capsulas/capuccino-chocolate.webp);
+    background-size: 240px;
+}
+
+.img7{
+    background-image: url(../img/Capsulas/chocolate.webp);
+}
+
+@media (max-width: 870px){
+    #conteiner_produtos {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
 @media (max-width: 768px){
     #espaco_icon h3 {
         display: none;
@@ -298,5 +335,17 @@ main{
 
     #imagem_background p {
         font-size: 20px;
+    }
+}
+
+@media (max-width: 680px){
+    #conteiner_produtos {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 430px){
+    #conteiner_produtos {
+        grid-template-columns: repeat(1, 1fr);
     }
 }
