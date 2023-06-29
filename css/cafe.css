@@ -1,0 +1,368 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Amatic+SC&display=swap');
+
+:root {
+    --primary-color: #2E2828;
+    --second-color: #4A3030;
+    --tertiary-color: #330303;
+    --white-color: #FEF4F4;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    color: var(--white-color);
+}
+
+header {
+    height: 52px;
+    background-color: var(--second-color);
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+}
+
+#conteiner_header {
+    height: 52px;
+    background-color: var(--tertiary-color);
+    max-width: 1000px;
+    margin: 0 auto;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#espaco_icon {
+    height: 52px;
+    width: 150px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: var(--white-color);
+    align-items: center;
+}
+
+#espaco_icon img {
+    background-color: var(--white-color);
+}
+
+#espaco_icon h3{
+    font-family: 'Amatic SC', cursive;
+    font-size: 32px;
+    background-color: var(--white-color);
+    color: #2E2828;
+}
+
+#espaco_icon a{
+    text-decoration: none;
+}
+
+#barra_pesquisa{
+    display: flex;
+    align-items: center;
+    background-color: white;
+    align-items: center;
+    padding: 2px;
+    border-radius: 4px;
+    margin: 10px;
+    width: 200px;
+    min-width: 50px;
+}
+
+#barra_pesquisa i {
+    background-color: #FEF4F4;
+    padding-right: 5px;
+}
+
+.search-text {
+    background: none;
+    border: 0;
+    outline: 0;
+    color: black;
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 200px;
+}
+
+#ultima_lista {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 7px;
+}
+
+#ultima_lista ul {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    list-style-type: none;
+}
+
+#ultima_lista li {
+    font-family: 'Acme', sans-serif;
+    padding: 6px;
+    border-radius: 5px;
+    margin-right: 10px;  
+}
+
+#ultima_lista a{
+    text-decoration: none;
+}
+
+#ultima_lista li:hover {
+    background-color: var(--second-color);
+}
+
+#ultima_lista ul li:nth-last-child(1){
+    padding: 6px;
+    border-radius: 5px;
+    margin-right: 32px;
+    background-color: var(--second-color);
+}
+
+#ultima_lista i {
+    padding-right: 5px;
+}
+
+#menu_ham {
+    display: none;
+}
+
+#imagem_background {
+    top: 52px;
+    position: relative;
+    height: 329px;
+    background-image: url(../img/Comum/wallpaper.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: white;
+    background-position: center;
+}
+
+#imagem_background h4 {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: var(--white-color);
+    font-size: 42px;
+    font-weight: bold;
+    font-family: 'Amatic SC', cursive;
+    text-shadow: 2px 2px 1px rgba(0, 0, 0, 1);
+    text-align: center;
+    background-color: #F7AA43;
+    border: 2px solid black;
+    padding: 2px;
+}
+
+#imagem_background p {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: var(--white-color);
+    font-size: 26px;
+    font-weight: bold;
+    font-family: 'Amatic SC', cursive;
+    text-shadow: 2px 2px 1px rgba(0, 0, 0, 1);
+    text-align: center;
+    border: 2px solid black;
+    background-color: #F7AA43;
+    padding: 2px;
+}
+
+body{
+    background-color: var(--primary-color);
+    height: 5000px;
+}
+
+main{
+    max-width: 1000px;
+    margin: 0 auto;
+    border: 1px solid var(--tertiary-color);
+    height: 5000px;
+}
+
+#lista_secao {
+    margin-top: 52px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    border-radius: 0px 0px 0px 5px;
+    background-color: #330303;
+}
+
+#lista_secao ul{
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    list-style-type: none;
+}
+
+#lista_secao li {
+    padding-right: 32px;
+    font-family: 'Acme', sans-serif;
+    background-color: var(--tertiary-color);
+    padding: 6px;
+    width: 70px;
+    text-align: center;
+}
+
+#lista_secao a{
+    text-decoration: none;
+}
+
+#lista_secao li:nth-child(2){
+    padding-left: 5px;
+    background-color: var(--second-color);
+    text-decoration: underline;
+}
+
+#lista_secao li:last-child{
+    padding-right: 10px;
+    border-radius: 0px 0px 5px 0px
+}
+
+#lista_secao li:hover{
+    background-color: var(--second-color);
+    text-decoration: underline;
+}
+
+#conteiner_produtos {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 5px;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.card{
+    width: 200px;
+    height: 325px;
+    border: 1px solid black;
+    font-size: 14px;
+    margin-bottom: 10px;
+    margin: 0 auto;
+}
+
+.card h6{
+    font-size: 15px;
+    margin-top: 2px;
+    color: #585858;
+    font-family: 'Source Sans Pro';
+    font-weight: bold;
+}
+
+.card h5 {
+    margin-top: 5px;
+    font-family: 'Source Sans Pro';
+    color: #767474;
+}
+
+.card h6, .card h5 {
+    padding-left: 5px;
+    float: left;
+}
+
+.img_produto{
+    width: 195px;
+    height: 260px;
+    margin-left: auto;
+    margin-right: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.botao_add{
+    background-color: green;
+    padding: 4px;
+    border-radius: 5px;
+    float: right;
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+.img1{
+    background-image: url(../img/Capsulas/classico.webp);
+}
+
+.img2{
+    background-image: url(../img/Capsulas/intenso.webp);
+    background-size: 180px;
+}
+
+.img3{
+    background-image: url(../img/Capsulas/canela.webp);
+}
+
+.img4{
+    background-image: url(../img/Capsulas/cafe_leite.webp);
+}
+
+.img5{
+    background-image: url(../img/Capsulas/cacau.webp);
+}
+
+.img6{
+    background-image: url(../img/Capsulas/capuccino-chocolate.webp);
+    background-size: 240px;
+}
+
+.img7{
+    background-image: url(../img/Capsulas/chocolate.webp);
+}
+
+@media (max-width: 870px){
+    #conteiner_produtos {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (max-width: 768px){
+    #espaco_icon h3 {
+        display: none;
+    }
+
+    #espaco_icon {
+        width: 52px;
+    }
+
+    #ultima_lista ul{
+        display: none;
+    }
+
+    #imagem_background {
+        height: 190px;
+    }
+
+    #menu_ham {
+        display: block;
+        margin-right: 15px;
+    }
+
+    .search-text {
+        width: 240px;
+    }
+
+    #imagem_background h4 {
+        top: 40%;
+        font-size: 24px;
+    }
+
+    #imagem_background p {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 680px){
+    #conteiner_produtos {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 430px){
+    #conteiner_produtos {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
