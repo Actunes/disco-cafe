@@ -284,33 +284,23 @@ main{
 }
 
 .img1{
-    background-image: url(../img/Capsulas/classico.webp);
+    background-image: url(../img/Acessorios/Coador\ De\ Café\ Individual\ Black\ Fast\ Coffee.webp);
+    background-size: 180px;
 }
 
 .img2{
-    background-image: url(../img/Capsulas/intenso.webp);
+    background-image: url(../img/Acessorios/Conjunto\ Kit\ Cafeteira\ Hario\ V60.webp);
     background-size: 180px;
 }
 
 .img3{
-    background-image: url(../img/Capsulas/canela.webp);
+    background-image: url(../img/Acessorios/Filtro\ pCafé\ Reutilizável\ Cônico\ Inox\ Ultrafino\ Cafeteira.webp);
+    background-size: 180px;
 }
 
 .img4{
-    background-image: url(../img/Capsulas/cafe_leite.webp);
-}
-
-.img5{
-    background-image: url(../img/Capsulas/cacau.webp);
-}
-
-.img6{
-    background-image: url(../img/Capsulas/capuccino-chocolate.webp);
-    background-size: 240px;
-}
-
-.img7{
-    background-image: url(../img/Capsulas/chocolate.webp);
+    background-image: url(../img/Acessorios/Moedor\ Triturador\ de\ Café\ Manual\ Profissional\ Inox\ Cozinha.webp);
+    background-size: 180px;
 }
 
 @media (max-width: 870px){

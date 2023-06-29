@@ -284,33 +284,33 @@ main{
 }
 
 .img1{
-    background-image: url(../img/Capsulas/classico.webp);
+    background-image: url(../img/Cafeteiras/Arno_Cafeteira_Espresso-removebg-preview.webp);
+    background-size: 180px;
 }
 
 .img2{
-    background-image: url(../img/Capsulas/intenso.webp);
+    background-image: url(../img/Cafeteiras/Cafeteira_Elétrica_Electrolux_inox-removebg-preview.webp);
     background-size: 180px;
 }
 
 .img3{
-    background-image: url(../img/Capsulas/canela.webp);
+    background-image: url(../img/Cafeteiras/Cafeteira_Elétrica_Mondial-removebg-preview.webp);
+    background-size: 180px;
 }
 
 .img4{
-    background-image: url(../img/Capsulas/cafe_leite.webp);
+    background-image: url(../img/Cafeteiras/Cafeteira_Espresso_Oster-removebg-preview.webp);
+    background-size: 180px;
 }
 
 .img5{
-    background-image: url(../img/Capsulas/cacau.webp);
+    background-image: url(../img/Cafeteiras/Cafeteira_Philco-removebg-preview.webp);
+    background-size: 180px;
 }
 
 .img6{
-    background-image: url(../img/Capsulas/capuccino-chocolate.webp);
-    background-size: 240px;
-}
-
-.img7{
-    background-image: url(../img/Capsulas/chocolate.webp);
+    background-image: url(../img/Cafeteiras/Cafeteira_Prensa_Francesa_Cremeira_-removebg-preview.webp);
+    background-size: 180px;
 }
 
 @media (max-width: 870px){
