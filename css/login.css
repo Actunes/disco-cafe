@@ -1,0 +1,51 @@
+main{
+    height: 1000px;
+}
+
+#conteiner_pai{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 0px;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 1000px;
+}
+
+#conteiner_esquerda {
+    display: flex;
+    background-color: white;
+    height: 500px;
+    max-width: 500px;
+    margin-top: 60px;
+    border-radius: 10px 0px 0px 10px;
+    background-image: url(../img/Comum/undraw_join_re_w1lh.svg);
+}
+
+#conteiner_direita {
+    display: flex;
+    justify-content: center;
+    height: 500px;
+    margin-top: 60px;
+    background-color: aqua;
+    min-width: 350px;
+    max-width: 500px;
+    border-radius: 0px 10px 10px 0px;
+}
+
+#conteiner_direita label {
+    display: block;
+    color: white;
+    margin-top: 20px;
+    text-align: start;
+}
+
+#conteiner_direita input,textarea {
+    border-radius: 5px;
+    padding: 2px;
+    display: block;
+    font-size: 14px;
+    width: 300px;
+    color: black;
+    
+}

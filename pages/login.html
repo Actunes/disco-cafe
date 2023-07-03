@@ -6,11 +6,11 @@
     <title>Disco Café</title>
     <link
       rel="shortcut icon"
-      href="../img/Comum/logo2.webp"
+      href="./img/Comum/logo2.webp"
       type="image/x-icon"
     />
     <link rel="stylesheet" href="../css/principal.css"/>
-    <link rel="stylesheet" href="../css/cafe.css">
+    <link rel="stylesheet" href="../css/login.css">
     <script
       src="https://kit.fontawesome.com/74a739feea.js"
       crossorigin="anonymous"
@@ -18,7 +18,6 @@
   </head>
   <body>
     <header>
-
       <div id="conteiner_header">
         <a href="javascript:void(0)" onclick="location.reload()">
           <div id="espaco_icon">
@@ -62,38 +61,25 @@
         </div>
       </div>
     </header>
-    <div id="imagem_background">
-      <h4>Descubra o sabor perfeito</h4>
-      <p>Aprecie seus sentidos com os melhores grãos de café do mundo</p>
-    </div>
-
     <main>
-
-      <nav id="lista_secao">
-        <ul>
-          <li><a href="../index.html"></i>Capsulas</a></li>
-          <li><a href="../pages/café.html"></i>Café</a></li>
-          <li><a href="../pages/cafeteiras.html"></i>Cafeteiras</a></li>
-          <li><a href="../pages/acessorios.html"></i>Acessórios</a></li>
-        </ul>
-      </nav>
-
-      <div id="conteiner_produtos">
-        <div class="card">
-          <div class="img_produto img1"></div>
-          <h5>Café truville Torrado e moído 500g</h5>
-          <div class="conteiner_preco_botao">
-            <h6>R$ 29,90</h6>
-            <button class="botao_add" ><i class="fa-solid fa-cart-shopping"></i>Adicionar</button>
-          </div>
+      <div id="conteiner_pai">
+        <div id="conteiner_esquerda">
+          
         </div>
-        <div class="card">
-          <div class="img_produto img2"></div>
-          <h5>Café 3 corações torrado e moído 250g</h5>
-          <div class="conteiner_preco_botao">
-            <h6>R$ 29,90</h6>
-            <button class="botao_add" ><i class="fa-solid fa-cart-shopping"></i>Adicionar</button>
+        <div id="conteiner_direita">
+          <form id="form">
+            <div class="area">
+              <label for="email">E-mail:</label>
+              <input type="email" id="email">
           </div>
+          <div class="area">
+            <label for="senha">Senha:</label>
+            <input type="password" id="senha">
+          </div>
+          <div>
+            <button type="submit">Enviar</button>
+          </div>
+          </form>
         </div>
       </div>
     </main>
@@ -117,7 +103,7 @@
             </ul>
           </div>
           <div>
-            <h6>Contato</h6>
+            <h6 id="contato">Contato</h6>
             <ul>
               <li>contato@contato.com</li>
               <li>(55)91234-5678</li>
@@ -137,6 +123,6 @@
         <p>Todos os direitos Reservados</p>
       </div>
     </footer>
-    <script src="../js/botao.js"></script>
+    <script src="./js/botao.js"></script>
   </body>
 </html>
