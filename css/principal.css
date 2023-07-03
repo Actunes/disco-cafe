@@ -211,12 +211,6 @@ main{
     text-decoration: none;
 }
 
-#lista_secao li:first-child{
-    padding-left: 5px;
-    background-color: var(--second-color);
-    text-decoration: underline;
-}
-
 #lista_secao li:last-child{
     padding-right: 10px;
     border-radius: 0px 0px 5px 0px
@@ -281,36 +275,6 @@ main{
     float: right;
     margin-right: 10px;
     text-decoration: none;
-}
-
-.img1{
-    background-image: url(../img/Capsulas/classico.webp);
-}
-
-.img2{
-    background-image: url(../img/Capsulas/intenso.webp);
-    background-size: 180px;
-}
-
-.img3{
-    background-image: url(../img/Capsulas/canela.webp);
-}
-
-.img4{
-    background-image: url(../img/Capsulas/cafe_leite.webp);
-}
-
-.img5{
-    background-image: url(../img/Capsulas/cacau.webp);
-}
-
-.img6{
-    background-image: url(../img/Capsulas/capuccino-chocolate.webp);
-    background-size: 240px;
-}
-
-.img7{
-    background-image: url(../img/Capsulas/chocolate.webp);
 }
 
 @media (max-width: 870px){
