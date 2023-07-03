@@ -5,31 +5,9 @@
 }
 
 .img1{
-    background-image: url(../img/Capsulas/classico.webp);
+    background-image: url(../img/Café/cafe_torrado_e_moido_tradicional_3_coracoes_250g.webp);
 }
 
 .img2{
-    background-image: url(../img/Capsulas/intenso.webp);
-    background-size: 180px;
-}
-
-.img3{
-    background-image: url(../img/Capsulas/canela.webp);
-}
-
-.img4{
-    background-image: url(../img/Capsulas/cafe_leite.webp);
-}
-
-.img5{
-    background-image: url(../img/Capsulas/cacau.webp);
-}
-
-.img6{
-    background-image: url(../img/Capsulas/capuccino-chocolate.webp);
-    background-size: 240px;
-}
-
-.img7{
-    background-image: url(../img/Capsulas/chocolate.webp);
+    background-image: url(../img/Café/Café-Truville-Torrado-e-Moído-500g.webp);
 }
