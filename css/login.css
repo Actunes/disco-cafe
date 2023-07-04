@@ -1,5 +1,7 @@
-main{
-    height: 1000px;
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Amatic+SC&display=swap');
+
+main {
+    border: none;
 }
 
 #conteiner_pai{
@@ -10,6 +12,7 @@ main{
     align-items: center;
     margin: 0 auto;
     max-width: 1000px;
+    font-family: 'Acme', sans-serif;
 }
 
 #conteiner_esquerda {
@@ -17,35 +20,51 @@ main{
     background-color: white;
     height: 500px;
     max-width: 500px;
-    margin-top: 60px;
-    border-radius: 10px 0px 0px 10px;
+    margin-top: 51px;
+    border-radius: 0px 0px 0px 10px;
     background-image: url(../img/Comum/undraw_join_re_w1lh.svg);
 }
 
 #conteiner_direita {
     display: flex;
-    justify-content: center;
+    justify-content: start;
+    align-items: center;
+    padding-left: 10px;
     height: 500px;
-    margin-top: 60px;
-    background-color: aqua;
+    margin-top: 51px;
+    background-color: #4A3030;
     min-width: 350px;
     max-width: 500px;
-    border-radius: 0px 10px 10px 0px;
+    border-radius: 0px 0px 10px 0px;
+    position: relative;
 }
 
 #conteiner_direita label {
     display: block;
     color: white;
-    margin-top: 20px;
     text-align: start;
 }
 
-#conteiner_direita input,textarea {
+#conteiner_direita input {
     border-radius: 5px;
-    padding: 2px;
+    padding: 5px;
     display: block;
     font-size: 14px;
     width: 300px;
-    color: black;
-    
+    color: white;
+    background-color: black;
+    border: 1px solid white;
+    outline: 0;
+    padding-left: 28px;
+}
+
+#conteiner_direita i {
+    position: absolute;
+    color: white;
+    font-size: 15px;
+}
+
+.icone {
+    margin-top: 7px;
+    margin-left: 7px;
 }
