@@ -76,13 +76,22 @@ main {
     margin-top: 5px;
 }
 
-#botao_submit button {
+#botao_submit button{
     margin-right: 10px;
-    color: black;
-    padding: 1px 3px;
+    color: white;
+    padding: 1px 5px;
+    border-radius: 4px;
+    border: 1px solid white;
+    font-family: 'Acme', sans-serif;
+    background-color: black;
 }
 
 #botao_submit p {
     font-size: 14px;
     margin-left: 5px;
+}
+
+#espaco_icon{
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
 }
