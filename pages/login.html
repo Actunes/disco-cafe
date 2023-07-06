@@ -1,144 +1,120 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Disco Café</title>
-    <link
-      rel="shortcut icon"
-      href="./img/Comum/logo2.webp"
-      type="image/x-icon"
-    />
-    <link rel="stylesheet" href="../css/principal.css" />
-    <link rel="stylesheet" href="../css/login.css" />
-    <script
-      src="https://kit.fontawesome.com/74a739feea.js"
-      crossorigin="anonymous"
-    ></script>
-  </head>
-  <body>
-    <header>
-      <div id="conteiner_header">
-        <a href="../index.html">
-          <div id="espaco_icon">
-            <img
-              src="../img/Comum/logo2.webp"
-              alt="Logo Disco Café"
-              width="40"
-              height="40"
-            />
-            <h3>Disco Café</h3>
-          </div>
-        </a>
 
-        <div id="barra_pesquisa">
-          <input type="text" class="search-text" placeholder="Pesquisar" />
-          <i
-            class="fa-sharp fa-solid fa-magnifying-glass"
-            style="color: #000000"
-          ></i>
-        </div>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Disco Café</title>
+  <link rel="shortcut icon" href="./img/Comum/logo2.webp" type="image/x-icon" />
+  <link rel="stylesheet" href="../css/principal.css" />
+  <link rel="stylesheet" href="../css/login.css" />
+  <script src="https://kit.fontawesome.com/74a739feea.js" crossorigin="anonymous"></script>
+</head>
 
-        <div id="ultima_lista">
-          <ul>
-            <li>
-              <a href="#"><i class="fa-solid fa-pencil"></i>Avaliações</a>
-            </li>
-            <li>
-              <a href="#contato"
-                ><i class="fa-solid fa-address-book"></i>Contato</a
-              >
-            </li>
-            <li>
-              <a href="#"><i class="fa-solid fa-user"></i>Conta</a>
-            </li>
-            <li>
-              <a href="#"
-                ><i id="carrinho" class="fa-solid fa-cart-shopping"></i
-                >Carrinho</a
-              >
-            </li>
-          </ul>
-          <i id="menu_ham" class="fa-sharp fa-solid fa-bars"></i>
+<body>
+  <header>
+    <div id="conteiner_header">
+      <a href="../index.html">
+        <div id="espaco_icon">
+          <img src="../img/Comum/logo2.webp" alt="Logo Disco Café" width="40" height="40" />
+          <h3>Disco Café</h3>
         </div>
+      </a>
+
+      <div id="barra_pesquisa">
+        <input type="text" class="search-text" placeholder="Pesquisar" />
+        <i class="fa-sharp fa-solid fa-magnifying-glass" style="color: #000000"></i>
       </div>
-    </header>
-    <main>
-      <div id="conteiner_pai">
-        <div id="conteiner_esquerda"></div>
-        <div id="conteiner_direita">
-          <form id="form">
-            <div class="area">
-              <label for="email">E-mail:</label>
-              <i class="fa-solid fa-envelope icone"></i>
-              <input type="email" id="email" />
-            </div>
-            <div class="area">
-              <label for="senha">Senha:</label>
-              <i class="fa-solid fa-lock icone"></i>
-              <input type="password" id="senha" />
-            </div>
-            <div>
-              <button type="submit">Enviar</button>
-            </div>
-          </form>
-        </div>
-      </div>
-    </main>
-    <footer>
-      <div id="conteiner_lista_redes">
-        <ul id="lista_redes">
+
+      <div id="ultima_lista">
+        <ul>
           <li>
-            <a href="https://www.instagram.com/" target="_blank"
-              ><i class="fa-brands fa-instagram"></i
-            ></a>
+            <a href="#"><i class="fa-solid fa-pencil"></i>Avaliações</a>
           </li>
           <li>
-            <a href="https://pt-br.facebook.com/" target="_blank"
-              ><i class="fa-brands fa-facebook-f"></i
-            ></a>
+            <a href="#contato"><i class="fa-solid fa-address-book"></i>Contato</a>
           </li>
           <li>
-            <a
-              href="https://twitter.com/i/flow/login?redirect_after_login=%2Flogin%3Flang%3Dpt"
-              target="_blank"
-              ><i class="fa-brands fa-twitter"></i
-            ></a>
+            <a href="#"><i class="fa-solid fa-user"></i>Conta</a>
+          </li>
+          <li>
+            <a href="#"><i id="carrinho" class="fa-solid fa-cart-shopping"></i>Carrinho</a>
           </li>
         </ul>
-        <div id="infos">
-          <div>
-            <h6>Localização</h6>
-            <ul>
-              <li>Rua das Flores, 123</li>
-              <li>Bairro Jardim Primavera</li>
-              <li>Cidade Fictícia</li>
-              <li>Estado dos Sonhos</li>
-              <li>CEP: 12345-678</li>
-              <li>País Imaginário</li>
-            </ul>
+        <i id="menu_ham" class="fa-sharp fa-solid fa-bars"></i>
+      </div>
+    </div>
+  </header>
+  <main>
+    <div id="conteiner_pai">
+      <div id="conteiner_esquerda"></div>
+      <div id="conteiner_direita">
+        <form id="form">
+          <div class="area">
+            <label for="email">E-mail:</label>
+            <i class="fa-solid fa-envelope icone"></i>
+            <input type="email" id="email" />
+          </div>
+          <div class="area">
+            <label for="senha">Senha:</label>
+            <i class="fa-solid fa-lock icone"></i>
+            <input type="password" id="senha" />
           </div>
           <div>
-            <h6 id="contato">Contato</h6>
-            <ul>
-              <li>contato@contato.com</li>
-              <li>(55)91234-5678</li>
-            </ul>
+            <button type="submit">Enviar</button>
           </div>
-          <div>
-            <h6>Links</h6>
-            <ul>
-              <li>Política de Privacidade</li>
-              <li>Termos de Uso</li>
-              <li>Política de Cookies</li>
-            </ul>
-          </div>
+        </form>
+      </div>
+    </div>
+  </main>
+  <footer>
+    <div id="conteiner_lista_redes">
+      <ul id="lista_redes">
+        <li>
+          <a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+        </li>
+        <li>
+          <a href="https://pt-br.facebook.com/" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+        </li>
+        <li>
+          <a href="https://twitter.com/i/flow/login?redirect_after_login=%2Flogin%3Flang%3Dpt" target="_blank"><i
+              class="fa-brands fa-twitter"></i></a>
+        </li>
+      </ul>
+      <div id="infos">
+        <div>
+          <h6>Localização</h6>
+          <ul>
+            <li>Rua das Flores, 123</li>
+            <li>Bairro Jardim Primavera</li>
+            <li>Cidade Fictícia</li>
+            <li>Estado dos Sonhos</li>
+            <li>CEP: 12345-678</li>
+            <li>País Imaginário</li>
+          </ul>
+        </div>
+        <div>
+          <h6 id="contato">Contato</h6>
+          <ul>
+            <li>contato@contato.com</li>
+            <li>(55)91234-5678</li>
+          </ul>
+        </div>
+        <div>
+          <h6>Links</h6>
+          <ul>
+            <li>Política de Privacidade</li>
+            <li>Termos de Uso</li>
+            <li>Política de Cookies</li>
+          </ul>
         </div>
       </div>
-      <div id="direitos">
-        <p>Todos os direitos Reservados</p>
-      </div>
-    </footer>
-    <script src="./js/botao.js"></script>
-  </body>
+    </div>
+    <div id="direitos">
+      <p>Todos os direitos Reservados</p>
+    </div>
+  </footer>
+  <script src="./js/botao.js"></script>
+</body>
+
 </html>
