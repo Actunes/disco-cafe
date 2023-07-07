@@ -1,0 +1,19 @@
+.info {
+    display: none;
+    font-size: 12px;
+}
+
+#check{
+    display: flex;
+    margin-top: 5px;
+
+}
+
+#check input {
+    width: 15px;
+    margin-right: 5px;
+}
+
+#check label {
+    margin-top: 5px;
+}
