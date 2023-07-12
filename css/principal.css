@@ -155,6 +155,16 @@ header {
     padding-right: 10px;
 }
 
+#menu_dropdown li{
+    display: none;
+    background-color: var(--primary-color);
+}
+
+#menu_aside > ul > li:hover ul li {
+    display: block;
+}
+  
+
 #imagem_background {
     top: 52px;
     position: relative;
