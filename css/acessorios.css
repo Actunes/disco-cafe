@@ -1,25 +1,25 @@
-#lista_secao li:nth-child(4){
+#lista_secao li:nth-child(4) {
     padding-left: 5px;
     background-color: var(--second-color);
     text-decoration: underline;
 }
 
-.img1{
+.img1 {
     background-image: url(../img/Acessorios/Coador\ De\ Café\ Individual\ Black\ Fast\ Coffee.webp);
     background-size: 180px;
 }
 
-.img2{
+.img2 {
     background-image: url(../img/Acessorios/Conjunto\ Kit\ Cafeteira\ Hario\ V60.webp);
     background-size: 180px;
 }
 
-.img3{
+.img3 {
     background-image: url(../img/Acessorios/Filtro\ pCafé\ Reutilizável\ Cônico\ Inox\ Ultrafino\ Cafeteira.webp);
     background-size: 180px;
 }
 
-.img4{
+.img4 {
     background-image: url(../img/Acessorios/Moedor\ Triturador\ de\ Café\ Manual\ Profissional\ Inox\ Cozinha.webp);
     background-size: 180px;
 }

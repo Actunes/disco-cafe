@@ -1,13 +1,13 @@
-#lista_secao li:nth-child(2){
+#lista_secao li:nth-child(2) {
     padding-left: 5px;
     background-color: var(--second-color);
     text-decoration: underline;
 }
 
-.img1{
+.img1 {
     background-image: url(../img/Café/Café-Truville-Torrado-e-Moído-500g.webp);
 }
 
-.img2{
+.img2 {
     background-image: url(../img/Café/cafe_torrado_e_moido_tradicional_3_coracoes_250g.webp);
 }

@@ -4,7 +4,7 @@ main {
     border: none;
 }
 
-#conteiner_pai{
+#conteiner_pai {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 0px;
@@ -69,14 +69,14 @@ main {
     margin-left: 7px;
 }
 
-#botao_submit{
+#botao_submit {
     display: flex;
     justify-content: space-between;
     flex-direction: row-reverse;
     margin-top: 5px;
 }
 
-#botao_submit button{
+#botao_submit button {
     margin-right: 10px;
     color: white;
     padding: 1px 5px;
@@ -91,11 +91,11 @@ main {
     margin-left: 5px;
 }
 
-#espaco_icon{
+#espaco_icon {
     border-bottom-left-radius: 0px;
     border-bottom-right-radius: 0px;
 }
 
-.area{
+.area {
     margin-top: 15px;
 }

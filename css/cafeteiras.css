@@ -1,35 +1,35 @@
-#lista_secao li:nth-child(3){
+#lista_secao li:nth-child(3) {
     padding-left: 5px;
     background-color: var(--second-color);
     text-decoration: underline;
 }
 
-.img1{
+.img1 {
     background-image: url(../img/Cafeteiras/Arno_Cafeteira_Espresso-removebg-preview.webp);
     background-size: 180px;
 }
 
-.img2{
+.img2 {
     background-image: url(../img/Cafeteiras/Cafeteira_Elétrica_Electrolux_inox-removebg-preview.webp);
     background-size: 180px;
 }
 
-.img3{
+.img3 {
     background-image: url(../img/Cafeteiras/Cafeteira_Elétrica_Mondial-removebg-preview.webp);
     background-size: 180px;
 }
 
-.img4{
+.img4 {
     background-image: url(../img/Cafeteiras/Cafeteira_Espresso_Oster-removebg-preview.webp);
     background-size: 180px;
 }
 
-.img5{
+.img5 {
     background-image: url(../img/Cafeteiras/Cafeteira_Philco-removebg-preview.webp);
     background-size: 180px;
 }
 
-.img6{
+.img6 {
     background-image: url(../img/Cafeteiras/Cafeteira_Prensa_Francesa_Cremeira_-removebg-preview.webp);
     background-size: 180px;
 }

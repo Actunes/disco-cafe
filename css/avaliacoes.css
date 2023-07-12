@@ -15,21 +15,21 @@ table {
 }
 
 
-th{
+th {
     width: 100vh;
     background-color: #4A3030;
     padding: 10px;
 }
 
-th:nth-child(1){
+th:nth-child(1) {
     width: 200px;
 }
 
-th:nth-child(3){
+th:nth-child(3) {
     width: 150px;
 }
 
-td{
+td {
     text-align: center;
     padding-top: 5px;
     padding-bottom: 5px;

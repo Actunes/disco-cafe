@@ -45,18 +45,18 @@ header {
     background-color: var(--white-color);
 }
 
-#espaco_icon h3{
+#espaco_icon h3 {
     font-family: 'Amatic SC', cursive;
     font-size: 32px;
     background-color: var(--white-color);
     color: #2E2828;
 }
 
-#espaco_icon a{
+#espaco_icon a {
     text-decoration: none;
 }
 
-#barra_pesquisa{
+#barra_pesquisa {
     display: flex;
     align-items: center;
     background-color: var(--white-color);
@@ -100,10 +100,10 @@ header {
     font-family: 'Acme', sans-serif;
     padding: 6px;
     border-radius: 5px;
-    margin-right: 10px;  
+    margin-right: 10px;
 }
 
-#ultima_lista a{
+#ultima_lista a {
     text-decoration: none;
 }
 
@@ -111,7 +111,7 @@ header {
     background-color: var(--second-color);
 }
 
-#ultima_lista ul li:nth-last-child(1){
+#ultima_lista ul li:nth-last-child(1) {
     padding: 6px;
     border-radius: 5px;
     margin-right: 32px;
@@ -126,11 +126,11 @@ header {
     display: none;
 }
 
-#menu_aside{
+#menu_aside {
     width: 280px;
     height: 100%;
     background-color: var(--tertiary-color);
-    position:fixed;
+    position: fixed;
     z-index: 999;
     display: none;
 }
@@ -146,7 +146,7 @@ header {
     padding-top: 10px;
     padding-bottom: 10px;
     font-family: 'Acme', sans-serif;
-    border:1px solid black;
+    border: 1px solid black;
     width: 280px;
     text-align: center;
 }
@@ -155,15 +155,15 @@ header {
     padding-right: 10px;
 }
 
-#menu_dropdown li{
+#menu_dropdown li {
     display: none;
     background-color: var(--primary-color);
 }
 
-#menu_aside > ul > li:hover ul li {
+#menu_aside>ul>li:hover ul li {
     display: block;
 }
-  
+
 
 #imagem_background {
     top: 52px;
@@ -208,11 +208,11 @@ header {
     padding: 2px;
 }
 
-body{
+body {
     background-color: var(--primary-color);
 }
 
-main{
+main {
     max-width: 1000px;
     margin: 0 auto;
     border: 1px solid var(--tertiary-color);
@@ -227,7 +227,7 @@ main{
     background-color: #330303;
 }
 
-#lista_secao ul{
+#lista_secao ul {
     display: flex;
     align-items: center;
     font-size: 14px;
@@ -243,16 +243,16 @@ main{
     text-align: center;
 }
 
-#lista_secao a{
+#lista_secao a {
     text-decoration: none;
 }
 
-#lista_secao li:last-child{
+#lista_secao li:last-child {
     padding-right: 10px;
     border-radius: 0px 0px 5px 0px
 }
 
-#lista_secao li:hover{
+#lista_secao li:hover {
     background-color: var(--second-color);
     text-decoration: underline;
 }
@@ -266,7 +266,7 @@ main{
     margin: 0 auto;
 }
 
-.card{
+.card {
     width: 200px;
     height: 325px;
     background-color: #312d2d;
@@ -276,11 +276,11 @@ main{
     position: relative;
 }
 
-.card:hover{
+.card:hover {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.card h6{
+.card h6 {
     font-size: 15px;
     margin-top: 2px;
     color: #585858;
@@ -295,11 +295,12 @@ main{
     color: #767474;
 }
 
-.card h6, .card h5 {
+.card h6,
+.card h5 {
     padding-left: 5px;
 }
 
-.img_produto{
+.img_produto {
     width: 195px;
     height: 260px;
     margin-left: auto;
@@ -309,7 +310,7 @@ main{
     background-position: center;
 }
 
-.botao_add{
+.botao_add {
     background-color: green;
     padding: 4px;
     border-radius: 3px;
@@ -336,11 +337,11 @@ main{
 }
 
 
-footer{
+footer {
     background-color: black;
 }
 
-#conteiner_lista_redes{
+#conteiner_lista_redes {
     max-width: 1000px;
     margin: 0 auto;
 }
@@ -370,7 +371,7 @@ footer{
     background-color: var(--primary-color);
 }
 
-#infos{
+#infos {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -383,14 +384,14 @@ footer{
     text-align: center;
 }
 
-#infos li{
+#infos li {
     font-size: 14px;
     list-style: none;
     border-radius: 5px;
     text-align: start;
 }
 
-#direitos{
+#direitos {
     height: 35px;
     background-color: var(--second-color);
     text-align: center;
@@ -401,13 +402,13 @@ footer{
     padding-top: 9px;
 }
 
-@media (max-width: 870px){
+@media (max-width: 870px) {
     #conteiner_produtos {
         grid-template-columns: repeat(3, 1fr);
     }
 }
 
-@media (max-width: 768px){
+@media (max-width: 768px) {
     #espaco_icon h3 {
         display: none;
     }
@@ -416,7 +417,7 @@ footer{
         width: 52px;
     }
 
-    #ultima_lista ul{
+    #ultima_lista ul {
         display: none;
     }
 
@@ -443,13 +444,13 @@ footer{
     }
 }
 
-@media (max-width: 680px){
+@media (max-width: 680px) {
     #conteiner_produtos {
         grid-template-columns: repeat(2, 1fr);
     }
 }
 
-@media (max-width: 430px){
+@media (max-width: 430px) {
     #conteiner_produtos {
         grid-template-columns: repeat(1, 1fr);
     }

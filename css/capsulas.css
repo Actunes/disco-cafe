@@ -1,35 +1,35 @@
-#lista_secao li:first-child{
+#lista_secao li:first-child {
     padding-left: 5px;
     background-color: var(--second-color);
     text-decoration: underline;
 }
 
-.img1{
+.img1 {
     background-image: url(../img/Capsulas/classico.webp);
 }
 
-.img2{
+.img2 {
     background-image: url(../img/Capsulas/intenso.webp);
     background-size: 180px;
 }
 
-.img3{
+.img3 {
     background-image: url(../img/Capsulas/canela.webp);
 }
 
-.img4{
+.img4 {
     background-image: url(../img/Capsulas/cafe_leite.webp);
 }
 
-.img5{
+.img5 {
     background-image: url(../img/Capsulas/cacau.webp);
 }
 
-.img6{
+.img6 {
     background-image: url(../img/Capsulas/capuccino-chocolate.webp);
     background-size: 240px;
 }
 
-.img7{
+.img7 {
     background-image: url(../img/Capsulas/chocolate.webp);
 }
