@@ -10,3 +10,7 @@ function comparaSenhas(){
         info[1].style.display = "none"
     }
 }
+
+function enviaForms(){
+    alert("Conta criada com sucesso!")
+}
