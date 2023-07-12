@@ -1,6 +1,6 @@
 # Projeto Construção de Paginas Web
 
-Este é um projeto simples de estudo e finalização dos conceitos básicos de htm e css.
+Este é um projeto simples de estudo e finalização dos conceitos básicos de htm,css e js.
 
 ## Estrutura do projeto
 
@@ -9,13 +9,29 @@ A estrutura do projeto é organizada da seguinte forma:
 ```
 ├── css
     └── principal.css
+    └── acessorios.css
+    └── cafe.css
+    └── cafeteiras.css
+    └── capsulas.css
+    └── login.css
+    └── registro.css
 ├── img
     └── Café
     └── Cafeteiras
     └── Capsulas
     └── Comum
+    └── Acessorios
 ├── js
+    └── botao.js
+    └── compara.js
+    └── menu_hamb.js
 ├── pages
+    └── acessorios.html
+    └── avaliacoes.html
+    └── café.html
+    └── cafeteiras.html
+    └── login.html
+    └── registro.html
 └── index.html
 ```
 
