@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Disco Café</title>
+    <link rel="shortcut icon" href="../img/Comum/logo2.webp" type="image/x-icon">
+    <link rel="stylesheet" href="../css/principal.css">
+    <link rel="stylesheet" href="../css/avaliacoes.css">
+    <script src="https://kit.fontawesome.com/74a739feea.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <div id="conteiner_header">
+            <a href="../index.html">
+                <div id="espaco_icon">
+                    <img src="../img/Comum/logo2.webp" alt="Logo Disco Café" width="40" height="40">
+                    <h3>Disco Café</h3>
+                </div>
+            </a>
+
+            <div id="barra_pesquisa">
+                <input type="text" class="search-text" placeholder="Pesquisar">
+                <i class="fa-sharp fa-solid fa-magnifying-glass" style="color: #000000"></i>
+            </div>
+
+            <div id="ultima_lista">
+                <ul>
+                    <li>
+                        <a href="#"><i class="fa-solid fa-pencil"></i>Avaliações</a>
+                    </li>
+                    <li>
+                        <a href="../pages/login.html"><i class="fa-solid fa-user"></i>Conta</a>
+                    </li>
+                    <li>
+                        <a href="#"><i id="carrinho" class="fa-solid fa-cart-shopping"></i>Carrinho</a>
+                    </li>
+                </ul>
+                <i id="menu_ham" class="fa-sharp fa-solid fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <div id="menu_aside">
+        <ul>
+            <li>
+                <a href="#"><i class="fa-solid fa-pencil"></i>Avaliações</a>
+            </li>
+            <li>
+                <a href="../pages/login.html"><i class="fa-solid fa-user"></i>Conta</a>
+            </li>
+            <li>
+                <a href="#"><i id="carrinho" class="fa-solid fa-cart-shopping"></i>Carrinho</a>
+            </li>
+        </ul>
+    </div>
+    </div>
+
+    <main>
+
+        <div id="comentarios">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Nome</th>
+                        <th>Comentário</th>
+                        <th>Avaliação</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>João Silva</td>
+                        <td>Uma experiência de compra inigualável, com uma ampla seleção de produtos de altíssima
+                            qualidade.</td>
+                        <td>
+                            <i class="fas fa-star" style="color: #ebb800;"></i>
+                            <i class="fas fa-star" style="color: #ebb800;"></i>
+                            <i class="fas fa-star" style="color: #ebb800;"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Maria Souza</td>
+                        <td>Um atendimento excepcional que superou todas as minhas expectativas, sem dúvidas recomendo!
+                        </td>
+                        <td>
+                            <i class="fas fa-star" style="color: #ebb800;"></i>
+                            <i class="fas fa-star" style="color: #ebb800;"></i>
+                            <i class="fas fa-star" style="color: #ebb800;"></i>
+                            <i class="fas fa-star" style="color: #ebb800;"></i>
+                            <i class="fas fa-star" style="color: #ebb800;"></i>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Carlos Lima</td>
+                        <td>Um serviço deplorável, com produtos que deixaram muito a desejar em termos de qualidade.
+                        </td>
+                        <td>
+                            <i class="fas fa-star" style="color: #ebb800;"></i>
+                            <i class="fas fa-star" style="color: #ebb800;"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Ana Santos</td>
+                        <td>Uma incrível variedade de cafés de alta qualidade, oferecidos a preços acessíveis.</td>
+                        <td>
+                            <i class="fas fa-star" style="color: #ebb800;"></i>
+                            <i class="fas fa-star" style="color: #ebb800;"></i>
+                            <i class="fas fa-star" style="color: #ebb800;"></i>
+                            <i class="fas fa-star" style="color: #ebb800;"></i>
+                            <i class="fas fa-star"></i>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Lucas Oliveira</td>
+                        <td>Uma entrega super rápida, garantindo um café sempre fresco e saboroso.</td>
+                        <td>
+                            <i class="fas fa-star" style="color: #ebb800;"></i>
+                            <i class="fas fa-star" style="color: #ebb800;"></i>
+                            <i class="fas fa-star" style="color: #ebb800;"></i>
+                            <i class="fas fa-star" style="color: #ebb800;"></i>
+                            <i class="fas fa-star" style="color: #ebb800;"></i>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Laura Pereira</td>
+                        <td>Uma experiência de compra que me encantou em todos os aspectos, simplesmente adorei!</td>
+                        <td>
+                            <i class="fas fa-star" style="color: #ebb800;"></i>
+                            <i class="fas fa-star" style="color: #ebb800;"></i>
+                            <i class="fas fa-star" style="color: #ebb800;"></i>
+                            <i class="fas fa-star" style="color: #ebb800;"></i>
+                            <i class="fas fa-star" style="color: #ebb800;"></i>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Pedro Almeida</td>
+                        <td>Produtos com um custo-benefício excelente, vale cada centavo investido.</td>
+                        <td>
+                            <i class="fas fa-star" style="color: #ebb800;"></i>
+                            <i class="fas fa-star" style="color: #ebb800;"></i>
+                            <i class="fas fa-star" style="color: #ebb800;"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Juliana Fernandes</td>
+                        <td>Uma loja com um atendimento impecável, sempre prontos para ajudar e resolver qualquer
+                            problema.</td>
+                        <td>
+                            <i class="fas fa-star" style="color: #ebb800;"></i>
+                            <i class="fas fa-star" style="color: #ebb800;"></i>
+                            <i class="fas fa-star" style="color: #ebb800;"></i>
+                            <i class="fas fa-star" style="color: #ebb800;"></i>
+                            <i class="fas fa-star" style="color: #ebb800;"></i>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Rafael Mendes</td>
+                        <td>Um café de altíssima qualidade, não poderia recomendar mais!</td>
+                        <td>
+                            <i class="fas fa-star" style="color: #ebb800;"></i>
+                            <i class="fas fa-star" style="color: #ebb800;"></i>
+                            <i class="fas fa-star" style="color: #ebb800;"></i>
+                            <i class="fas fa-star" style="color: #ebb800;"></i>
+                            <i class="fas fa-star"></i>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Mariana Costa</td>
+                        <td>Preços um pouco mais elevados, mas a qualidade dos produtos compensa completamente.</td>
+                        <td>
+                            <i class="fas fa-star" style="color: #ebb800;"></i>
+                            <i class="fas fa-star" style="color: #ebb800;"></i>
+                            <i class="fas fa-star" style="color: #ebb800;"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Gabriel Rodrigues</td>
+                        <td>O meu pedido chegou com um pequeno atraso, mas ainda assim estou satisfeito com a compra.
+                        </td>
+                        <td>
+                            <i class="fas fa-star" style="color: #ebb800;"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Renata Barbosa</td>
+                        <td>Uma variedade excelente de café, sempre encontro exatamente o que procuro.</td>
+                        <td>
+                            <i class="fas fa-star" style="color: #ebb800;"></i>
+                            <i class="fas fa-star" style="color: #ebb800;"></i>
+                            <i class="fas fa-star" style="color: #ebb800;"></i>
+                            <i class="fas fa-star" style="color: #ebb800;"></i>
+                            <i class="fas fa-star" style="color: #ebb800;"></i>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Carlos Ferreira</td>
+                        <td>Um café delicioso e com um preço justíssimo.</td>
+                        <td>
+                            <i class="fas fa-star" style="color: #ebb800;"></i>
+                            <i class="fas fa-star" style="color: #ebb800;"></i>
+                            <i class="fas fa-star" style="color: #ebb800;"></i>
+                            <i class="fas fa-star" style="color: #ebb800;"></i>
+                            <i class="fas fa-star"></i>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Isabela Oliveira</td>
+                        <td>Uma loja com uma seleção de cafés especiais simplesmente incrível.</td>
+                        <td>
+                            <i class="fas fa-star" style="color: #ebb800;"></i>
+                            <i class="fas fa-star" style="color: #ebb800;"></i>
+                            <i class="fas fa-star" style="color: #ebb800;"></i>
+                            <i class="fas fa-star" style="color: #ebb800;"></i>
+                            <i class="fas fa-star"></i>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>João Silva</td>
+                        <td>Ótima loja, produtos de altíssima qualidade.</td>
+                        <td>
+                            <i class="fas fa-star" style="color: #ebb800;"></i>
+                            <i class="fas fa-star" style="color: #ebb800;"></i>
+                            <i class="fas fa-star" style="color: #ebb800;"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Maria Souza</td>
+                        <td>Um atendimento excelente, recomendo a todos!</td>
+                        <td>
+                            <i class="fas fa-star" style="color: #ebb800;"></i>
+                            <i class="fas fa-star" style="color: #ebb800;"></i>
+                            <i class="fas fa-star" style="color: #ebb800;"></i>
+                            <i class="fas fa-star" style="color: #ebb800;"></i>
+                            <i class="fas fa-star" style="color: #ebb800;"></i>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Carlos Lima</td>
+                        <td>Um serviço péssimo, produtos abaixo do esperado.</td>
+                        <td>
+                            <i class="fas fa-star" style="color: #ebb800;"></i>
+                            <i class="fas fa-star" style="color: #ebb800;"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Ana Santos</td>
+                        <td>Uma boa variedade de cafés, com preços acessíveis.</td>
+                        <td>
+                            <i class="fas fa-star" style="color: #ebb800;"></i>
+                            <i class="fas fa-star" style="color: #ebb800;"></i>
+                            <i class="fas fa-star" style="color: #ebb800;"></i>
+                            <i class="fas fa-star" style="color: #ebb800;"></i>
+                            <i class="fas fa-star"></i>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Lucas Oliveira</td>
+                        <td>Uma entrega rápida, com café sempre fresco.</td>
+                        <td>
+                            <i class="fas fa-star" style="color: #ebb800;"></i>
+                            <i class="fas fa-star" style="color: #ebb800;"></i>
+                            <i class="fas fa-star" style="color: #ebb800;"></i>
+                            <i class="fas fa-star" style="color: #ebb800;"></i>
+                            <i class="fas fa-star" style="color: #ebb800;"></i>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Laura Pereira</td>
+                        <td>Uma experiência de compra que simplesmente me encantou.</td>
+                        <td>
+                            <i class="fas fa-star" style="color: #ebb800;"></i>
+                            <i class="fas fa-star" style="color: #ebb800;"></i>
+                            <i class="fas fa-star" style="color: #ebb800;"></i>
+                            <i class="fas fa-star" style="color: #ebb800;"></i>
+                            <i class="fas fa-star" style="color: #ebb800;"></i>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Pedro Almeida</td>
+                        <td>Produtos com um excelente custo-benefício, vale muito a pena!</td>
+                        <td>
+                            <i class="fas fa-star" style="color: #ebb800;"></i>
+                            <i class="fas fa-star" style="color: #ebb800;"></i>
+                            <i class="fas fa-star" style="color: #ebb800;"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Juliana Fernandes</td>
+                        <td>Uma loja com um atendimento ótimo, estou completamente satisfeito.</td>
+                        <td>
+                            <i class="fas fa-star" style="color: #ebb800;"></i>
+                            <i class="fas fa-star" style="color: #ebb800;"></i>
+                            <i class="fas fa-star" style="color: #ebb800;"></i>
+                            <i class="fas fa-star" style="color: #ebb800;"></i>
+                            <i class="fas fa-star" style="color: #ebb800;"></i>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Rafael Mendes</td>
+                        <td>Um café de alta qualidade, não posso deixar de recomendar.</td>
+                        <td>
+                            <i class="fas fa-star" style="color: #ebb800;"></i>
+                            <i class="fas fa-star" style="color: #ebb800;"></i>
+                            <i class="fas fa-star" style="color: #ebb800;"></i>
+                            <i class="fas fa-star" style="color: #ebb800;"></i>
+                            <i class="fas fa-star"></i>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Mariana Costa</td>
+                        <td>Os preços são um pouco elevados, mas a qualidade compensa completamente.</td>
+                        <td>
+                            <i class="fas fa-star" style="color: #ebb800;"></i>
+                            <i class="fas fa-star" style="color: #ebb800;"></i>
+                            <i class="fas fa-star" style="color: #ebb800;"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Gabriel Rodrigues</td>
+                        <td>O meu pedido chegou com um pequeno atraso, mas ainda assim estou satisfeito com a compra.
+                        </td>
+                        <td>
+                            <i class="fas fa-star" style="color: #ebb800;"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Renata Barbosa</td>
+                        <td>Uma variedade excelente de café, sempre encontro exatamente o que procuro.</td>
+                        <td>
+                            <i class="fas fa-star" style="color: #ebb800;"></i>
+                            <i class="fas fa-star" style="color: #ebb800;"></i>
+                            <i class="fas fa-star" style="color: #ebb800;"></i>
+                            <i class="fas fa-star" style="color: #ebb800;"></i>
+                            <i class="fas fa-star" style="color: #ebb800;"></i>
+                        </td>
+                    </tr>
+
+                </tbody>
+            </table>
+
+        </div>
+
+    </main>
+    <footer>
+        <div id="conteiner_lista_redes">
+            <ul id="lista_redes">
+                <li>
+                    <a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                </li>
+                <li>
+                    <a href="https://pt-br.facebook.com/" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+                </li>
+                <li>
+                    <a href="https://twitter.com/i/flow/login?redirect_after_login=%2Flogin%3Flang%3Dpt"
+                        target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                </li>
+            </ul>
+            <div id="infos">
+                <div>
+                    <h6>Localização</h6>
+                    <ul>
+                        <li>Rua das Flores, 123</li>
+                        <li>Bairro Jardim Primavera</li>
+                        <li>Cidade Fictícia</li>
+                        <li>Estado dos Sonhos</li>
+                        <li>CEP: 12345-678</li>
+                        <li>País Imaginário</li>
+                    </ul>
+                </div>
+                <div>
+                    <h6 id="contato">Contato</h6>
+                    <ul>
+                        <li>contato@contato.com</li>
+                        <li>(55)91234-5678</li>
+                    </ul>
+                </div>
+                <div>
+                    <h6>Links</h6>
+                    <ul>
+                        <li><a href="">Política de Privacidade</a></li>
+                        <li><a href="">Termos de Uso</a></li>
+                        <li><a href="">Política de Cookies</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div id="direitos">
+            <p>Todos os direitos Reservados</p>
+        </div>
+    </footer>
+    <script src="../js/botao.js"></script>
+    <script src="../js/menu_hamb.js"></script>
+</body>
+
+</html>

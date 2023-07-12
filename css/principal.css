@@ -356,6 +356,10 @@ footer{
     margin-top: 15px;
 }
 
+#lista_redes li:hover {
+    background-color: var(--primary-color);
+}
+
 #infos{
     display: flex;
     align-items: center;
