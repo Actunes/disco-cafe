@@ -209,7 +209,7 @@ main{
 }
 
 #lista_secao {
-    margin-top: 52px;
+    margin-top: 51px;
     display: flex;
     align-items: center;
     justify-content: end;
@@ -361,6 +361,7 @@ footer{
     align-items: center;
     justify-content: space-evenly;
     margin-top: 15px;
+    margin-bottom: 15px;
 }
 
 #infos h6 {
@@ -376,12 +377,14 @@ footer{
 }
 
 #direitos{
-    height: 50px;
-    margin-top: 5px;
+    height: 35px;
     background-color: var(--second-color);
     text-align: center;
-    line-height: 50px;
     font-size: 14px;
+}
+
+#direitos p {
+    padding-top: 9px;
 }
 
 @media (max-width: 870px){
